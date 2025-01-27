@@ -1,24 +1,24 @@
 body {
-    background-color: #000000;
+    background-color: #0d0e2e;
 }
 
 .sidebar {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     bottom: 0;
     padding: 12px;
     width: 300px;
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: #0d0e3f;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    background: #0d0e3f;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -38,7 +38,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: #fac748;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
