@@ -14,14 +14,16 @@ body {
 .sidebar__navigation {
     background-color: #0d0e3f;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 16px 0 0;
 }
 
 .sidebar__navigation .logo {
     background: #0d0e3f;
     display: flex;
+    justify-content:flex-end;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 16px 0 0;
+    
 }
 
 .sidebar__navigation .logo img {
@@ -31,9 +33,12 @@ body {
 .sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
+    
 }
 
 .sidebar ul li {
+    display: flex;
+    justify-content: flex-end;
     padding: 10px 0;
 }
 
@@ -46,13 +51,13 @@ body {
 }
 
 .library {
-    background-color: #121212;
+    background-color: #0d0e3f;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: #d3d3d3;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
@@ -66,7 +71,7 @@ body {
 .library .library__button {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: #d3d3d3;
     background-color: transparent;
     border: 0px;
     font-size: 14px;
@@ -80,9 +85,9 @@ body {
 
 .library .library__button .fa{
     font-size: 20px;
-    margin-right: 10px;
+    margin-left: 10px;
     font-weight: 300;
-    padding-right: 8px;
+    padding-left: 8px;
 }
 
 .library .library__content .fa-plus {
@@ -91,11 +96,11 @@ body {
 
 .section-playlist{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: flex-end;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: #0d0e54;
+    color: #d3d3d3;
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
@@ -106,12 +111,14 @@ body {
 .section-playlist .section-playlist__content {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
     font-family: "DM Sans", sans-serif;
+    text-align: right;
 }
 
 .section-playlist__content .title {
@@ -142,10 +149,11 @@ body {
 
 .sidebar .cookies {
     margin: 25px 20px;
+    text-align: right;
 }
 
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color: #d3d3d3;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -154,6 +162,11 @@ body {
 
 .sidebar .cookies a:hover{
     text-decoration: underline;
+}
+
+.languages {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .languages .languages__button{
