@@ -168,3 +168,47 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);;
+    font-family: "DM Sans", sans-serif;
+    padding: 15px 40px;
+}
+
+.footer__text .text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.footer__text .title {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0px 0px 10px;
+}
+
+.footer__text .subtitle {
+    font-size: 14px;
+}
+
+.footer__button .footer__button--button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border: 0px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px 30px;
+    border-radius: 20px;
+}
