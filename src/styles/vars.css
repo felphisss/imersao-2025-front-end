@@ -2,7 +2,13 @@
     /* FONT */
     --font-dm-sans: "DM Sans", sans-serif;
 
-    /* COLORS */
+    /* COLORS BG */
     --bg-icon: #131313;
-    --bg-arrow-color: rgba(0,0,0,7)
+    --bg-arrow-color: rgba(0,0,0,7);
+    --bg-page: #000000;
+    --bg-section: #121212;
+    --bg-section-minor: #242424;
+
+    /* COLORS TEXT */
+    --text-color-1: #b3b3b3;
 }
