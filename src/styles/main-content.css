@@ -132,18 +132,17 @@
 /* FIM SCROLL*/
 
 .offer__list-item {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 16px;
     margin-bottom: 16px;
 }
 
 .cards {
     position: relative;
-    min-width: 170px;
-    min-height: 150px;
-    width: 220px;
-    height: 200px;
+    width: 100%;
+    aspect-ratio: 11 / 10;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -208,7 +207,13 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 50%;
     height: auto;
-    width: 107px;
     transform:  rotate(25deg) translate(18%, -2%);
+}
+
+@media (max-width: 800px) {
+    .offer__list-item {
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+}
 }
