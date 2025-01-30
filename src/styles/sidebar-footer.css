@@ -185,7 +185,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #ae2896, #509bf5);;
+    background: linear-gradient(to right, #509bf5, #ae2896);;
     padding: 15px 40px;
 }
 
@@ -193,6 +193,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #ffffff;
+    text-align: right;
 }
 
 .footer__text .title {
