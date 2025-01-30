@@ -2,8 +2,8 @@
 .main-container {
     max-width: 80vw;
     height: 100vh;
-    margin-left: 320px;
-    margin-right: 56px;
+    margin-right: 320px;
+    margin-left: 56px;
 }
 
 .header__navigation {
@@ -23,7 +23,7 @@
 }
 
 .header__navigation .navigation .arrow-left {
-    margin-right: 1.25rem;
+    margin-left: 1.25rem;
 }
 
 .arrow-left, .arrow-right {
@@ -36,7 +36,6 @@
     background-color: var(--bg-arrow-color);
     border: none;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .header__login  {
@@ -46,25 +45,30 @@
 
 .header__search {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     width: 364px;
     height: 48px;
-    margin-left: 8px;
+    margin-right: 8px;
     background-color: var(--bg-section-minor);
     border-radius: 500px;
     border: 1px solid transparent;
 }
 
+.header__search input::placeholder{
+    text-align: right;
+}
+
 .header__search img {
     width: 16px;
     height: 16px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header__search input{
     background: transparent;
     border: none;
-    padding: 0px 100px 0px 12px;
+    padding: 0px 12px 0px 100px;
     color: #ffffff;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -77,7 +81,7 @@
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
-    margin-right: 32px;
+    margin-left: 32px;
 }
 
 .header__login .login {
