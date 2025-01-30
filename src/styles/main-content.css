@@ -69,7 +69,7 @@
     background: transparent;
     border: none;
     padding: 0px 12px 0px 100px;
-    color: #ffffff;
+    color: #000000;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -87,7 +87,8 @@
 .header__login .login {
     width: 100px;
     height: 48px;
-    color: #000000;
+    color: #ffffff;
+    background-color: #000000;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;

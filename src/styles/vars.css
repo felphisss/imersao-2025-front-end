@@ -4,11 +4,11 @@
 
     /* COLORS BG */
     --bg-icon: #131313;
-    --bg-arrow-color: rgba(0,0,0,7);
-    --bg-page: #000000;
-    --bg-section: #121212;
-    --bg-section-minor: #242424;
+    --bg-arrow-color: rgba(255,255,255,0.4);
+    --bg-page: #ffffff;
+    --bg-section: #ededed;
+    --bg-section-minor: #dbdbdb;
 
     /* COLORS TEXT */
-    --text-color-1: #b3b3b3;
+    --text-color-1: #4d4d4d;
 }
