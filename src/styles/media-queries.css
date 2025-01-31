@@ -1,0 +1,13 @@
+/* EXEMPLO CONSTRUÍDO NA AULA
+@media screen and (max-width: 1015px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+*/
+
+@media (max-width: 800px) {
+    .offer__list-item {
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+}
+}

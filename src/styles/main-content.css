@@ -211,9 +211,3 @@
     height: auto;
     transform:  rotate(25deg) translate(18%, -2%);
 }
-
-@media (max-width: 800px) {
-    .offer__list-item {
-        grid-template-columns: repeat(2, minmax(180px, 1fr));
-}
-}
