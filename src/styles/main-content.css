@@ -3,7 +3,7 @@
     max-width: 80vw;
     height: 100vh;
     margin-right: 320px;
-    margin-left: 56px;
+    margin-left: 12px;
 }
 
 .header__navigation {
@@ -56,7 +56,8 @@
 }
 
 .header__search input::placeholder{
-    text-align: right;
+    text-align: end;
+    
 }
 
 .header__search img {
@@ -108,16 +109,18 @@
 }
 
 .playlist #greeting {
-    color: #ffffff;
+    color: #000000;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
+    text-align: end;
 }
 
 .playlist .session {
-    color: #ffffff;
+    color: #000000;
     font-size: 24px;
     font-weight: 700;
+    text-align: end;
 }
 
 /* SCROLL */
@@ -138,7 +141,8 @@
 
 .offer__list-item {
     display: grid;
-    grid-auto-rows: min-content;
+    direction: rtl;
+    grid-auto-rows:min-content;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 16px;
     margin-bottom: 16px;
@@ -210,11 +214,11 @@
 
 .offer__list-item img {
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
     width: 50%;
     height: auto;
-    transform:  rotate(25deg) translate(18%, -2%);
+    transform:  rotate(-25deg) translate(-18%, 2%);
 }
 
 /* CARD ARTISTA */
