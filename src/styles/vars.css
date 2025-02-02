@@ -11,4 +11,10 @@
 
     /* COLORS TEXT */
     --text-color-1: #4d4d4d;
+
+    /* COLORS CARD*/
+    --bg-card-1: rgb(245, 156, 24);
+    --bg-card-2: rgb(245, 209, 24);
+    --bg-card-3: rgb(245, 182, 24);
+    --bg-card-4: rgb(235, 211, 87);
 }

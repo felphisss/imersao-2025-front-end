@@ -13,10 +13,27 @@ function displayResult(result) {
     resultPLaylist.classList.add("hidden");
     const artistName = document.getElementById("artist-name");
     const artistImage = document.getElementById("artist-img");
+    const gridContainer = document.getElementById("grid-container");
+
+    gridContainer.innerHTML = ""
 
     result.forEach(element => {
-        artistName.innerText = element.name;
-        artistImage.src = element.urlImg;
+        let resultCard = `<div class="artist-card" id="">
+                            <div class="card-img">
+                                <img id="artist-img" class="artist-img" src="${element.urlImg}" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <a title="${element.name}" class="vst" href=""></a>
+                                <span class="artist-name" id="artist-name">${element.name}</span>
+                                <span class="artist-categorie">${element.genre}</span>
+                                </a>
+                            </div>
+                        </div>`
+        
+        gridContainer.innerHTML += resultCard
     });
 
     resultArtist.classList.remove("hidden");
@@ -25,11 +42,9 @@ function displayResult(result) {
 document.addEventListener("input", function() {
     const searchTerm = searchInput.value.toLowerCase();
 
-    console.log(searchTerm);
-
     if (searchTerm === "") {
-        resultPLaylist.classList.add("hidden");
-        resultArtist.classList.remove("hidden");
+        resultArtist.classList.add("hidden");
+        resultPLaylist.classList.remove("hidden");
         return;
     }
 
