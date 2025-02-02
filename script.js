@@ -25,8 +25,6 @@ function displayResult(result) {
 document.addEventListener("input", function() {
     const searchTerm = searchInput.value.toLowerCase();
 
-    console.log(searchTerm);
-
     if (searchTerm === "") {
         resultPLaylist.classList.add("hidden");
         resultArtist.classList.remove("hidden");
