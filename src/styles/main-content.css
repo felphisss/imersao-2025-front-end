@@ -56,11 +56,6 @@
     border: 1px solid transparent;
 }
 
-.header__search input::placeholder{
-    text-align: end;
-    
-}
-
 .header__search img {
     width: 16px;
     height: 16px;
@@ -76,6 +71,10 @@
     overflow: hidden;
     white-space: nowrap;
     outline: none;
+}
+
+.header__search input::placeholder{
+    text-align: end;    
 }
 
 .header__login .subscribe {
