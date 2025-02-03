@@ -144,6 +144,57 @@ body {
     width: 113px;
 }
 
+.section-podcast{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: var(--bg-section-minor);
+    color: var(--text-color-1);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.section-podcast .section-podcast__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section-podcast__content .text {
+    padding-bottom: 14px;
+    text-align: right;
+    color: #000000;
+}
+
+.section-podcast__content .title {
+    font-weight: 700;
+}
+
+.section-podcast__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-podcast__content .section-podcast__button {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+}
+
 .sidebar .cookies {
     margin: 25px 20px;
     text-align: right;
@@ -187,6 +238,7 @@ body {
     right: 0;
     background: linear-gradient(to right, #00E9F6, #2BFE41);
     padding: 15px 40px;
+    max-height: 8vh;
 }
 
 .footer__text .text {
@@ -194,6 +246,7 @@ body {
     flex-direction: column;
     color: #000000;
     text-align: right;
+    overflow: hidden;
 }
 
 .footer__text .title {

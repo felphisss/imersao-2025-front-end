@@ -1,9 +1,10 @@
 /* HEADER */
 .main-container {
     max-width: 80vw;
-    height: 100vh;
+    height: 90vh;
     margin-right: 320px;
     margin-left: 12px;
+    padding-top: 12px;
 }
 
 .header__navigation {
@@ -11,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin: 10px;
+    margin: 0 10px;
     border-radius: 8px;
     background-color: var(--bg-section);
 }
@@ -94,6 +95,7 @@
     font-weight: 700;
     border-radius: 40px;
 }
+/* FIM DO HEADER*/
 
 /* PLAYLIST */
 .playlist-container {
@@ -101,11 +103,12 @@
     margin: 10px;
     border-radius: 8px;
     background-color: var(--bg-section);
-    height: 68vh;
+    height: 75vh;
 }
 
 .playlist {
     margin: 24px;
+    overflow: hidden;
 }
 
 .playlist #greeting {
@@ -121,11 +124,12 @@
     font-size: 24px;
     font-weight: 700;
     text-align: end;
+    max-height: 50px;
 }
 
 /* SCROLL */
 .offer__scroll-container {
-    max-height: 43vh;
+    max-height: 50vh;
     margin: 24px;
     overflow-y: auto;
 }
@@ -159,7 +163,7 @@
 .cards span {
     padding: 16px;
     position: absolute;
-    color: #ffffff;
+    color: #000000;
     font-size: 24px;
     font-weight: 700;
 }
@@ -226,7 +230,7 @@
     display: none;
 }
 
-/* SCROLL */
+/* GRID SCROLL */
 .grid__scroll-container {
     max-height: 58vh;
     margin: 24px;
@@ -240,7 +244,7 @@
 .grid__scroll-container::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
-/* FIM SCROLL*/
+/* FIM DO GRID SCROLL*/
 
 .grid-container {
     box-sizing: border-box;
